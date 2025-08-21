@@ -1,0 +1,49 @@
+/* Resume Section */
+.resume {
+  background-color: var(--muted);
+  text-align: center;
+}
+
+.resume-text {
+  font-size: 1.1rem;
+  color: var(--foreground);
+  margin-bottom: 1.5rem;
+}
+
+.resume-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Header Highlight */
+.header {
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.header .nav-menu a {
+  color: white;
+  font-weight: bold;
+}
+
+.header .nav-menu a:hover {
+  color: yellow;
+}
+
+/* Footer Highlight */
+.footer {
+  background: linear-gradient(180deg, var(--primary), var(--secondary));
+  color: white;
+}
+
+.footer-section h3,
+.footer-section a,
+.footer-bottom {
+  color: white;
+}
+
+.footer-section a:hover {
+  color: yellow;
+}
